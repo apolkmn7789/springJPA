@@ -1,1 +1,4 @@
 rootProject.name = 'jpashop'
+include 'src:test:templates'
+findProject(':src:test:templates')?.name = 'templates'
+
